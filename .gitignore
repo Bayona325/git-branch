@@ -1,0 +1,20 @@
+#directorios de configuracion
+.vscode
+
+#se ignora un archivo especifico
+texto_ignorado.txt
+
+#se ignora una carpeta
+archivos_ignorados/*
+
+#se ignora un archivo especifico de una carpeta en especifico
+#otras_carpeta/campers.txt
+
+#se ignora un tipo espificico de archivo en una carpeta con terminacion "_carpeta"
+*_carpeta/*.json
+
+#se ignora carpetas anidadas o rutas
+##ignora todo
+#*_padre/**/*
+##ignora un tipo de archivo especifico
+*_padre/**/*.txt
